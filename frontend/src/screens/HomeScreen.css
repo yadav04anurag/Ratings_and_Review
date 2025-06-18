@@ -1,0 +1,123 @@
+/* Main container */
+.home-screen {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Carousel section */
+.carousel-section {
+  margin-bottom: 40px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Back button */
+.back-button-container {
+  margin-bottom: 30px;
+}
+
+.btn-back {
+  padding: 8px 20px;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-back:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Loader and error containers */
+.loader-container,
+.error-container,
+.no-products-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+/* Products section */
+.products-section {
+  margin-top: 20px;
+}
+
+.products-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #333;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: #007bff;
+}
+
+/* Products grid */
+.products-grid {
+  margin: 0 -15px;
+}
+
+.product-col {
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.product-col:hover {
+  transform: translateY(-5px);
+}
+
+/* Pagination */
+.pagination-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .home-screen {
+    padding: 15px;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .product-col {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-screen {
+    padding: 10px;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .btn-back {
+    padding: 6px 15px;
+    font-size: 0.9rem;
+  }
+}
