@@ -43,7 +43,7 @@
 ## ER Daigram 
 
 
-![image alt](https://raw.githubusercontent.com/yadav04anurag/Ratings_and_Review/f19cadb70faa15d54fd0199a6d161b951e6b2960/ER%20daigram.svg)
+![image alt]()
 
 
 --
