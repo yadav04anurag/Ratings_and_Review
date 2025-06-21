@@ -6,7 +6,7 @@
 
 ## 🚀 Deployment
 
-🔗 [Live Demo](https://product-helpers-4avp.onrender.com/)
+🔗 [Live Demo](https://product-helpers-4avp.onrender.com)
 
 ---
 
@@ -43,7 +43,7 @@
 ## ER Daigram 
 
 
-![image alt](https://raw.githubusercontent.com/yadav04anurag/Ratings_and_Review/e2c7be563f6c2c5795a0c141173579bfd7043c81/ER%20daigram.svg)
+![image alt]()
 
 
 --
